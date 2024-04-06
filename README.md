@@ -6,12 +6,12 @@ This project is a Java SpringBoot application that integrates with a MySQL datab
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/springboot-mysql-integration.git
+git clone https://github.com/imksprateek/Springboot-MySQL-integration.git
 ```
 Navigate to the project directory:
 
 ```bash
-cd springboot-mysql-integration
+cd Springboot-MySQL-integration
 ```
 Make sure you have MySQL installed and running on your system.
 
@@ -36,7 +36,7 @@ Run the application:
 ```
 
 ## API Endpoints
-Get All Users
+### Get All Users
 URL: /all
 Method: GET
 Description: Retrieves all user records from the database.
@@ -57,7 +57,7 @@ Example Response:
   ...
 ]
 ```
-Add User
+### Add User
 URL: /add
 Method: POST
 Description: Adds a new user record to the database.
